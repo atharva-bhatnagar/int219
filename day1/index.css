@@ -1,0 +1,27 @@
+body{
+    color: brown;
+    background-color: rgb(190, 212, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    background-color: beige;
+    height: auto;
+    margin: 0;
+}
+hr{
+    width: 10%;
+}
+#RC{
+    align-self: center;
+}
+#desc{
+    width: 500px;
+}
