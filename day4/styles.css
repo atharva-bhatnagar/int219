@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(199, 232, 241);
+}
+#heading{
+    text-shadow: -2px 2px 4px rgb(241, 241, 23);
+}
+.para{
+    color: rgb(234, 104, 104);
+}
+hr{
+    width: 25%;
+}
+h2{
+    border-bottom: 3px dotted blue;
+    width: 20%;
+}
+article{
+    background-color: rgb(198, 248, 231);
+    max-width: 35%;
+    padding: 2% 3%;
+    margin: 1% 1%;
+    border-radius: 10px;
+}
