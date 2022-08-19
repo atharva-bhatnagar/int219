@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(237, 209, 234);
+}
+h1{
+    background-color: rgb(192, 199, 240);
+    margin: 1em;
+    border: 2px dashed royalblue;
+    padding:1.2em;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2.3rem;
+    color: rgb(234, 11, 41);
+    text-shadow: 0 0 2px black;
+    border-left: 2px solid royalblue;
+    outline: 5px solid gold;
+    outline-offset: 0;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+p{
+    font-weight: 600;
+    border: 2px dashed rgb(209, 8, 75);
+    border-left: 8px solid rgb(110, 2, 38);
+    padding: 10px 20px;
+    color: purple;
+}
+.container{
+    border: 2px solid purple;
+    font-size: 1.3rem;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(217, 221, 248);
+}
