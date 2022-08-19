@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Javascript
+            </h1>
+        </header>
+        <script>
+            let age1=prompt("enter first person's age")
+            let age2=prompt("enter second person's age")
+            let a="Hello World!"
+            console.log("hello")
+            //alert("hello")
+            document.write(a+"<br>")
+            document.write(a.length+"<br>")
+            document.write(a.charAt(2)+"<br>")
+            document.write(a.indexOf("lo")+"<br>")
+            document.write(a.slice(2,7)+"<br>")
+            document.write(a.toUpperCase()+"<br>")
+            document.write(a.toLowerCase()+"<br>")
+            if(age1>age2){
+                document.write("person 1 is older")
+            }
+            else if(age2>age1){
+                document.write("person 2 is older")
+            }
+            else{
+                document.write("both persons are of same age")
+            }
+            for(let i=0;i<10;i++){
+                document.write(i+"<br>")
+            }
+            document.write("decrementing age1 : <br>")
+            while(age1>=0){
+                document.write(age1+"<br>")
+                age1-=1
+            }
+        </script>
+    </body>
+</html>
